@@ -36,7 +36,7 @@ import pandas as pd
 
 #TODO: 3.1. Conectează acest Colab la contul tău Drive. Downloadează fișierul Lyrics-Genre.csv și adaugă-l în proiect. Citește datele ca un dataframe Pandas și afișează primele 10 linii.
 
-# filepath = "Lyrics-Genre.csv"
+# filepath = "Python for Machine Learning\Lyrics-Genre.csv"
 # df = pd.read_csv(filepath)
 # print(df[:5])
 
@@ -44,10 +44,14 @@ import pandas as pd
 
 #TODO: 3.2. Afișează câte datapoints (cântece per gen muzical) există pentru fiecare gen muzical folosind funcții din Pandas.
 
-filepath = "Lyrics-Genre.csv"
-df = pd.read_csv(filepath)
-print(len(list(set(df['Genre']))), list(set(df['Genre'])))
+# filepath = "Python for Machine Learning\Lyrics-Genre.csv"
+# df = pd.read_csv(filepath)
+# print(len(list(set(df['Genre']))), list(set(df['Genre'])))
 
 
 
 #TODO: 3.3. Creează următoarele coloane noi pentru dataframe-ul vostru: număr cuvinte, număr cuvinte unice, număr propoziții, densitatea medie a propozițiilor din datapoint (număr propoziții / număr cuvinte). Completează aceste informații.
+filepath = "Python for Machine Learning\Lyrics-Genre.csv"
+df = pd.read_csv(filepath)
+print(df)
+
